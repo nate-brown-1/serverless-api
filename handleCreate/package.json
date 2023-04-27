@@ -1,0 +1,14 @@
+{
+  "name": "handlecreate",
+  "version": "1.0.0",
+  "description": "handleCreate function for AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage --detectOpenHandles"
+  },
+  "author": "Nate Brown",
+  "license": "ISC",
+  "dependencies": {
+    "dynamoose": "^3.2.0"
+  }
+}
